@@ -28,6 +28,9 @@ public:
 
 	const float4x4 get_view_matrix() const;
 	const float4x4 get_projection_matrix() const;
+	const float get_height() const;
+	const float get_width() const;
+	const float get_aspect_ratio() const;
 
 #ifdef DX12
 	const DirectX::XMMATRIX get_dxm_view_matrix() const;
