@@ -56,5 +56,5 @@ void cg::renderer::rasterization_renderer::render()
 
 	cg::utils::save_resource(*render_target, settings->result_path);
 
-	std::cout << camera->get_height() << '\n' << camera->get_width() << '\n' << camera->get_aspect_ratio();
+	//std::cout << camera->get_height() << '\n' << camera->get_width() << '\n' << camera->get_aspect_ratio();
 }
